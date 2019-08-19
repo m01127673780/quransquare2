@@ -1,0 +1,42 @@
+ /*============start footer ==============*/
+footer{    padding: 40px 0 20px 0;
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+}
+footer a>i{
+    font-family: 'FontAwesome';
+    font-style: normal;
+    background:#444;
+    color: #fff;  
+	padding: 15px;
+ 	border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-weight: 1000;
+	display: inline-block;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+footer p{
+	font-size: 15px;
+	color: #ccc;
+/*	margin-bottom: 20px;
+*/}
+footer p span{
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	color: #fff;
+ }
+footer a>i:hover{
+    background-color: #ff2462;
+ }
