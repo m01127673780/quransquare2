@@ -62,14 +62,10 @@ footer li {
         height: 42px;
             margin: 12px 0;
       }
-   footer .img-and-icon-footer{
-/*padding: 50px 0;
-*/
- padding-top: 50px ;
- 
-
- }
-
+footer .img-and-icon-footer {
+    /* padding: 50px 0; */
+    padding-top: 23px;
+}
 .icon-up-to-top {
     /* line-height: 40px; */
     cursor: pointer;
@@ -132,3 +128,6 @@ footer .copy {
 /*    text-align: center !important;
 */ } 
 	}
+   .s-medie{
+    margin-right: 10px;
+}

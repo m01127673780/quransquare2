@@ -49,22 +49,7 @@ margin: 0;
 }
 /*----------End  public----------------------*/
 
- 
- 
-/*---------------------*/
-/*End header*/
-.welcome{
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/welcome.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-}
+  
 .overlay{
     width: 100%;
     height: 100%;
@@ -419,7 +404,507 @@ display: none;
   background: #0c274c;
 }
   
-.carousel-control-next, .carousel-control-prev  {
-     top: 40% !important;
+.carousel-control-next.top, .carousel-control-prev.top  {
     width: 51px!important;
  }
+
+
+
+
+
+
+
+
+
+
+.carousel-control-next,.carousel-control-prev{
+  }
+.slider-video{
+      margin-left: 33px;
+    background: #7cb62f;
+    position: absolute;
+    top: 50%
+    left:10%;
+top: 89% !important
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .img-slider-vido{
+                        position: absolute;
+                        width: 100%;
+                      }
+
+
+.content-slider img {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    padding-left: -23px;
+    padding-left: -14px;
+    margin-left: 10px;
+    height: 73%;
+    margin-left: 11px;
+    padding-right: 49px;
+    padding-left: 58px;
+    padding-top: 24px;
+}
+.content-slider img{
+  position: absolute;
+    width: 100%;
+}
+    .fa-ico-play{
+        font-size: 50px;
+        color: #000;
+        position: absolute;
+        font-size: 100px;
+        color: red;
+        position: absolute;
+        left: 40%;
+        top: 41%;
+        z-index: 9999;
+            margin-bottom: 14px;
+    background: #f00;
+    color: #fff;
+    cursor: pointer;
+    padding: 22px 22px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============start prace tabel ========================*/
+
+h1{
+            color:#FF3E78;
+            font-size:30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .pricing_table{
+            position:relative;
+            color:#fff;
+            margin:10px 0;
+            text-align: center;
+            background:linear-gradient(to top,#FF3E78,#46B8DA);
+            transition: all 0.30s linear 0s;
+        }
+        .pricing_table::before{
+            content:"";
+            position:absolute;
+            left:-10px;
+            top:55px;
+            width:30%;
+            border:20px solid #FF3E78;;
+            border-right:20px solid transparent;
+        }
+        .pricing_table::after{
+            content:"";
+            position:absolute;
+            top:45px;
+            left:-10px;
+            border:5px solid #333;
+            border-left:5px solid transparent;
+            border-top:5px solid transparent;
+        }
+        .pricing_table_header{
+            padding:40px;
+        }
+        .pricing_table_header .title{
+            display:block;
+            margin-bottom:20px;
+            text-transform: capitalize;
+        }
+        .pricing_table_header .price-plan{
+            display:block;
+            width:60%;
+            color:#fff;
+            padding:25px;
+            margin:0 auto;
+            background:#46B8DA;
+        }
+        .pricing_table_header .price{
+            font-size:40px;
+        }
+        .pricing_table_header .monthly_plan{
+            font-size:20px;
+        }
+        .pricing_table .pricing_table_plan{
+            border-top-right-radius:30px;
+            border-top-left-radius:30px;
+            padding:0 20px 30px;
+        }
+        .pricing_table .pricing_table_plan ul{
+            margin:0 0 50px;
+            padding:0;
+        }
+        .pricing_table .pricing_table_plan ul li{
+            list-style:none;
+            margin:15px 0;
+        }
+        .pricing_table .pricing_table_plan .btn-info{
+            padding:8px 40px;
+            border:0 none;
+            background:#00BFF3;
+            transition: all 0.30s linear 0s;
+        }
+/*==============End prace tabel ==========================*/
+/*==============2222222222 prace tabel ==========================*/
+.pricingTable{
+            margin-top:30px;
+            text-align: center;
+            position: relative;
+        }
+        .pricingTable .pricing_heading:after{
+            content: "";
+            width: 36px;
+            height: 29.5%;
+            background:#EF476F;
+            position: absolute;
+            top: -1px;
+            right: 0;
+            z-index: 2;
+            transform: skewY(45deg) translateY(18px);
+            transition: all 0.4s ease 0s;
+        }
+        .pricingTable .title{
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #000;
+            text-transform: uppercase;
+            background: #EF476F;
+            padding: 15px 0 0;
+            margin: 0 35px 0 0;
+            transition: all 0.4s ease 0s;
+        }
+        .pricingTable .value{
+            display: block;
+            font-size: 35px;
+            font-weight: 700;
+            color: #000;
+            background: #EF476F;
+            padding: 5px 0 10px;
+            margin: 0 35px 0 0;
+            transition: all 0.4s ease 0s;
+        }
+        .pricingTable:hover .title,
+        .pricingTable:hover .value{
+            color: #fff;
+        }
+        .pricingTable .month{
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        .pricingTable .content{
+            border-left: 1px solid #f2f2f2;
+            position: relative;
+        }
+        .pricingTable .content:after{
+            content: "";
+            width: 35px;
+            height: 100%;
+            background: #f8f8f8;
+            box-shadow: 9px 9px 20px #ddd;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            transform: skewY(-45deg) translateY(-18px);
+            transition: all 0.4s ease 0s;
+        }
+        .pricingTable .content ul{
+            padding: 0;
+            margin: 0 35px 0 0;
+            list-style: none;
+            background: #fff;
+        }
+        .pricingTable .content ul li{
+            display: block;
+            font-size: 15px;
+            color: #333;
+            line-height: 23px;
+            padding: 11px 0;
+            border-bottom: 1px solid #f2f2f2;
+        }
+        .pricingTable .link{
+            background: #fff;
+            padding: 20px 0;
+            margin-right: 35px;
+            border-bottom: 1px solid #f2f2f2;
+        }
+        .pricingTable .link a{
+            display: inline-block;
+            padding: 9px 20px;
+            font-weight: 700;
+            color: #EF476F;
+            text-transform: uppercase;
+            border: 1px solid #EF476F;
+            background: #fff;
+            transition: all 0.4s ease 0s;
+        }
+        .pricingTable:hover .link a{
+            color: #fff;
+            background: #06D6A0;
+            border: 1px solid #06D6A0;
+        }
+        .pricingTable:hover .pricing_heading:after,
+        .pricingTable:hover .title,
+        .pricingTable:hover .value{
+            background:#06D6A0;
+        }
+        @media only screen and (max-width: 990px){
+            .pricingTable{
+                margin-bottom: 35px;
+            }
+        }
+/*==============2222222222 prace tabel ==========================*/
+/*==============3333333333333333 prace tabel ==========================*/
+@import "lesshat";
+
+html, body {font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;font-size:10px;font-weight:bold;max-width:900px;margin:auto;padding:10px;}
+
+// Breakpoints
+// Source: http://blog.scur.pl/2012/06/variable-media-queries-less-css/
+@highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
+              ~"only screen and (min--moz-device-pixel-ratio: 1.5)",
+              ~"only screen and (-o-min-device-pixel-ratio: 3/2)",
+              ~"only screen and (min-device-pixel-ratio: 1.5)";
+@mobile:      ~"only screen and (max-width: 529px)";
+@tablet:      ~"only screen and (min-width: 530px) and (max-width: 768px)";
+@desktop:     ~"only screen and (min-width: 769px) and (max-width: 1128px)";
+@desktop-xl:  ~"only screen and (min-width: 1129px)";
+
+
+
+
+/*  THE GRID justifygrid.com  */
+@columns: 12;
+@column-width: 4em;
+@gutter-width: 1.2em;
+@support-old-ie: false;
+
+#grid() {
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important;
+  & > * {
+    text-align: left;
+    font-size: medium;
+  }
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  .cell() {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+  }
+  .span(@cols, @total: @columns) {
+    width: percentage((@column-width * @cols  + @gutter-width * (@cols  - 1)) /
+                      (@column-width * @total + @gutter-width * (@total - 1)));
+    margin-bottom: 1.9%;
+  }
+  .push(@cols, @total: @columns) {
+    left: percentage((@column-width + @gutter-width) * @cols /
+                     (@column-width * @total + @gutter-width * (@total - 1)));
+  }
+  .pull(@cols, @total: @columns) {
+    left: percentage((@column-width + @gutter-width) * -@cols /
+                     (@column-width * @total + @gutter-width * (@total - 1)));
+  }
+  .prepend(@cols, @total: @columns) {
+    margin-left: percentage((@column-width + @gutter-width) * @cols /
+                            (@column-width * @total + @gutter-width * (@total - 1)));
+  }
+  .append(@cols, @total: @columns) {
+    margin-right: percentage((@column-width + @gutter-width) * @cols /
+                             (@column-width * @total + @gutter-width * (@total - 1)));
+  }
+}
+
+h2 {font-size:1.6em;display:inline;text-transform:uppercase;}
+h3 {font-size:1.6em;display:inline;text-transform:capitalize;}
+em {font-style:normal;text-decoration:underline;font-size:1.7rem;}
+
+.radius(@radius:10px) {
+  -moz-border-radius-topleft: @radius;
+  -moz-border-radius-topright: @radius;
+  -webkit-border-top-left-radius: @radius;
+  -webkit-border-top-right-radius: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  -moz-border-radius-bottomright: @radius;
+  -webkit-border-bottom-left-radius: @radius;
+  -webkit-border-bottom-right-radius: @radius;}
+
+@package-margin:25px;
+
+section {
+  #grid;
+  > div {
+    #grid > .cell;
+    #grid > .span (4);
+    @media @mobile {
+      #grid > .span (12);
+    }
+  &.all-plans {
+    #grid > .span (12);
+  }
+  }
+}
+
+.price-package {
+  .package-name {
+    font-size:1.4rem;
+  }
+  padding-top:@package-margin;
+  @media @mobile {padding-top:1rem;}
+  margin-bottom:10px;
+  text-align: center;
+  .radius;
+    .package-price {
+      .radius;
+      margin-top:@package-margin;
+      @media @mobile {margin-top:1rem;}
+      .price {position:relative;
+              display:inline-block;
+                sup {font-size:1.6rem;
+                     position:absolute;    
+                     top:6px;
+                     left:-12px;}
+                span {font-size:3.5rem;}
+      }
+      .term {display:inline-block;
+             vertical-align:top;
+             text-align:left;padding-top:6px;
+               sup {font-size:1.7rem;
+                    display:block;padding:0;}
+               span {font-size:1rem;
+                     display:block;margin-top:-3px;}
+      }
+    }
+    .package-features {
+      .radius;
+      margin-top:@package-margin/1.5;
+        ul {font-size:1.6rem;
+            margin:0;
+            padding:0; 
+            list-style:none;
+              li {margin: 20px auto;padding:0;
+              @media @mobile {margin:10px auto;}
+              }
+        }
+    }
+    .sign-up {
+      .radius;
+      padding:@package-margin/1.5 0;
+      margin-top:@package-margin/1.5;
+      width:100%;
+      outline:none;
+      border:none;
+      cursor:pointer;
+    }
+    
+    /*arrow creation*/
+    .package-arrow{
+       width: 0; 
+       height: 0;
+       margin:0 auto @package-margin/2;
+       border-left: 10px solid transparent;
+       border-right: 10px solid transparent;
+       border-top: 8px solid;}
+    /*/arrow creation*/
+}/*price-package*/
+
+.all-plans {
+  .all-plans-features {
+    display:table;
+    width:100%;
+    text {
+      display:table-cell;
+      font-size:1.6rem;
+      vertical-align:middle;
+      width:33%;
+      @media @mobile {
+        display:block;
+        margin:10px auto;
+      }
+    }
+  }
+}
+
+.price-package-colors (@dark,@mid,@light) {
+    .price-package{
+    background-color:@dark;
+    .package-name {
+      color:white;
+    }
+    .package-price {
+      background-color:@mid;
+      color:white;
+    }
+    .package-features {
+      background-color:@light;
+      color:@dark;
+    }
+    .sign-up {
+      background-color:@dark;
+      color:white;
+      transition: background-color 0.5s ease;
+      &:hover {background-color:@mid;}
+      &:active {
+        background-color:@light;}
+    }
+    /*arrow creation*/
+    .arrow(@color) {border-top-color:@color}
+    .package-price .package-arrow{.arrow(@color:@dark);}
+    .package-features .package-arrow{.arrow(@color:@mid);}
+    .sign-up .package-arrow{.arrow(@color:@light);}
+     /*/arrow creation*/
+    }
+}
+
+.average {.price-package-colors(@dark:#009a86,@mid:#66CAA6,@light:#e0f2ed);}
+.special {.price-package-colors(@dark:#8654ff,@mid:#b191ff,@light:#efe9fc);}
+.superduper {.price-package-colors(@dark:#00b9f2,@mid:#7dd4fe,@light:#e0f2fa);}
+.all-plans {.price-package-colors(@dark:#646c7f,@mid:#8b94ab,@light:#e5ebf4);
+  .package-features .package-arrow{border-top-color:#646c7f!important;/*! overrides arrow color*/}
+  .package-features {padding-bottom:20px;}
+}
+
+/*==============3333333333333333 prace tabel ==========================*/
+
+
+
+ 

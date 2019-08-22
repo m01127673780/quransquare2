@@ -773,10 +773,35 @@ jQuery(window).on('scroll', function() {
 
 
 
+$('.price-minus').on('click',function(){
+$('.half-an-hour').slideDown(1000);
+$('.one-hour').slideUp(1000); 
+$(".price_value").html('30 Mins');
+
+ });
+$('.price-plus').on('click',function(){
+$('.half-an-hour').slideUp(1000);
+$('.one-hour').slideDown(1000); 
+$(".price_value").html('60 Mins');
+
+ });
 
 
 
 
+  $('.topbar').click(function() {
+    if ($('.topbar').hasClass("isUp")) {
+    $('.topbar').animate({top: '45px'}, 1000);
+    $('.nav').animate({top: '0px'}, 1000);
+    $('.topbar').removeClass("isUp");
+    }
+  
+    else {
+      $('.topbar').animate({top: '0px'}, 1000);
+      $('.nav').animate({top: '-50px'}, 1000);
+      $('.topbar').addClass("isUp");
+    }  
+  });
 
 
 
