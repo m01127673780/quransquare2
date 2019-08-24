@@ -1,0 +1,47 @@
+.fa-Teacher-record{
+margin-right: 20px; 
+clear: red
+}
+ .record-icon {
+color: red!important;
+}
+.c-img-video{
+	color: #fff;
+}
+
+
+/*section-whyus---------------*/
+.img-whyus{
+	display: inline-block;
+	height: 64px;
+	position: relative;
+	width: 64px;
+}
+/*section-whyus---------------*/
+.h2-whyus {
+	 color: #698cb0;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.contant-whyus h4{
+    color: #8495a5;
+    font-size: 14px;
+    line-height: 24px;
+}
+ .col-lg-padding {
+ 
+    padding: 10px!important;
+    margin: 0px;
+} 
+.h4-whyus {
+    color: #8495a5;
+    font-size: 14px;
+    line-height: 24px;
+}
+.span-whyus {
+    color: #ffcc00;
+    font-weight: bold;
+}
+/*section-whyus---------------*/

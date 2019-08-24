@@ -1,0 +1,133 @@
+ 
+
+footer {
+    background: #2a333b;
+    padding-top: 0px;
+    font-family: 'Lato', sans-serif;
+}
+footer .container h3 {
+    border-bottom: 1px solid #39444e;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+        margin-top: 50px;
+}
+footer .about p {
+    background: url(https://www.tareequljannah.com/img/pencil.png) no-repeat left center;
+    padding-left: 45px;
+}
+footer .p-linhight {
+       line-height: 28px;
+}
+footer .container p {
+    color: #8495a5;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer .container .contact-info a {
+    padding-left: 5px;
+}
+
+footer .container a {
+    color: #B9DAFA;
+    font-size: 14px;
+    font-weight: 500;
+}footer .container a {
+    color: #B9DAFA;
+}
+footer li {
+    
+    list-style: none;
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+}
+footer li {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    color: #c1c4c6;
+    text-align: left;
+    font-size: 17px;
+}
+ footer .p-linhight-smol 
+   {
+    line-height: 1.4!important;
+}
+ footer .img-downlode-app  {
+    width: 120px;
+        height: 42px;
+            margin: 12px 0;
+      }
+footer .img-and-icon-footer {
+    /* padding: 50px 0; */
+    padding-top: 23px;
+}
+.icon-up-to-top {
+    /* line-height: 40px; */
+    cursor: pointer;
+    width: 40px;
+    background: #444444;
+    color: #fff;
+    position: fixed;
+    -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    right: -webkit-calc((100% - 1140px)/ 2);
+    right: calc((100% - 1140px)/ 2);
+    z-index: 111;
+    bottom: 9px;
+    margin-right: 0;
+    text-align: center;
+    right: 25px;
+}
+ 
+
+
+
+
+
+footer .by-me a>i {
+     padding: 11px;
+    border-radius: 50%;
+    height: 28px !important;
+    width: 28px !important;
+    font-size: 13px;
+    padding: 7px 11px;
+    text-align: center;
+    /* background: blue; */
+    color: #fff;
+    display: inline-flex;
+    /* margin-right: 13px; */
+    border-bottom: 3px solid;
+    border-radius: 3px;
+    height: 45px;
+    width: 10.4%;
+}
+
+footer .copy {
+    font-size: 15px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+.yellow {
+   color: #ffcc00;
+}
+
+
+
+
+
+@media(max-width:768px){
+   footer li {
+   
+/*    text-align: center !important;
+*/ } 
+	}
+   .s-medie{
+    margin-right: 10px;
+}
